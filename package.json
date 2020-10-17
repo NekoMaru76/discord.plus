@@ -1,0 +1,32 @@
+{
+  "name": "@evodev/discord.plus",
+  "description": "Discord Plus is a Wrapper for Discord.JS which utilizes Bot communications using Socket.IO. Easily communicate with other bots using Discord.Plus. Discord.Plus also has a built in command handler to help you make your bot easily.",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "version": "2.0.7",
+  "license": "ISC",
+  "contributors": [
+    "nekomaru76",
+    "hyp3r",
+    "akuankka128"
+  ],
+  "keywords": ["discord.js", "discord", "socket.io", "chatbot", "ai", "artificial intelligence", "neural network", "evodev", "better object", "communicator", "enhanced"],
+  "authors": [
+    "nekomaru76",
+    "hyp3r",
+    "akuankka128"
+  ],
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "socket.io-client": "^2.3.1",
+    "q": "^2.0.3",
+    "cuid": "^2.1.8",
+    "string-similarity": "^4.0.2"
+  },
+  "devDependencies": {}
+}
