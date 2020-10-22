@@ -6,7 +6,7 @@
 
 const uid = require("cuid");
 
-let Neuron = (bias) => {
+function Neuron(bias) {
   this.id = uid();
   
   this.bias = bias == undefined ? Math.random() * 2 - 1 : bias;

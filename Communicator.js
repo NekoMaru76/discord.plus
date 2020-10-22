@@ -20,7 +20,7 @@ const [
 ] = [101, 102, 501, 502, 503, 504];
 const [ERR_SUCCESS, ERR_ALR_BLOCKED, ERR_NOT_BLOCKED] = [0, 1, 2];
 
-let emitEvent = (event, arg) => {
+function emitEvent(event, arg) {
   if (this.events[event]) {
     this.events[event].forEach(ev => {
       ev(arg);
@@ -28,7 +28,7 @@ let emitEvent = (event, arg) => {
   }
 }
 
-let Communicator = (client) => {
+function Communicator(client) {
   if (!(this instanceof Communicator)) {
     throw new TypeError(`Class constructor ${Communicator.name} cannot be invoked without 'new'`)
   }

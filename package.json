@@ -8,13 +8,21 @@
   "scripts": {
     "start": "node ."
   },
-  "version": "2.0.7",
+  "version": "2.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoMaru76/discord.plus.git"
+  },
   "license": "ISC",
   "contributors": [
     "nekomaru76",
     "hyp3r",
     "akuankka128"
   ],
+  "bugs": {
+    "url": "https://github.com/NekoMaru76/discord.plus/issues"
+  },
+  "homepage": "https://github.com/NekoMaru76/discord.plus#readme",
   "keywords": ["discord.js", "discord", "socket.io", "chatbot", "ai", "artificial intelligence", "neural network", "evodev", "better object", "communicator", "enhanced"],
   "authors": [
     "nekomaru76",

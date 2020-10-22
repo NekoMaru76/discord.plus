@@ -159,7 +159,7 @@ ai.getResult("thanks for the downloads!")
 ---
 ## Support
 ---
-- [Discord Server](https://discord.gg/CCWt9yp)
+- [Discord Server](https://discord.gg/pes8Wbu)
 ---
 ## Developer
 ---

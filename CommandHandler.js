@@ -4,7 +4,7 @@
  * Written by Gaia <careday17@gmail.com>, October 2020.
  */
 
-let CommandHandler = () => {
+function CommandHandler() {
   if (!(this instanceof CommandHandler)) {
     throw new TypeError(`Class constructor ${CommandHandler.name} cannot be invoked without 'new'`)
   }
@@ -16,17 +16,17 @@ let CommandHandler = () => {
   this.has = this.commands.has.bind(cmds);
   this.get = this.commands.get.bind(cmds);
 
-  this.getAllNames = () => {
+  this.getAllNames = function() {
     return [...this.commands.keys()];
-  };
+  }
 
-  this.getAllValues = () => {
-    return [...this.commands.values()];
-  };
+  this.getAllValues = function() {
+    return [...this.commands.values];
+  }
 
-  this.getAll = () => {
+  this.getAll = function() {
     return this.commands;
-  };
+  }
 }
 
 module.exports = CommandHandler;
